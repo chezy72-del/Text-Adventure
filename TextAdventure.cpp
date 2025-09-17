@@ -4,45 +4,45 @@ int main(){
 //This is a program for a text adventure. It will use user input to give different stories.
 
 //Collecting variables from user
-std::cout << "Before we begin our story please enter a single word answer for each of the following things. This will help build your unique story.\n";
+std::cout << "Before we begin our story please enter an answer for each of the following things. This will help build your unique story.\n";
 std::cout << "Throughout the story, you will be asked to make choices which will affect the way the story progresses.\n";
 //colour
 std::string colour;
 std::cout << "Input a colour: ";
-std::cin >> colour;
+std::cin.getline() >> colour;
 //weather
 std::string weather;
 std::cout << "Input a description of a day (cold, windy, etc.): ";
-std::cin >> weather;
+std::cin.getline() >> weather;
 //animals and names
 std::string animal1;
 std::cout << "Input your first animal: ";
-std::cin >> animal1;
+std::cin.getline() >> animal1;
 std::string name1;
 std::cout << "Name your first animal: ";
-std::cin >> name1;
+std::cin.getline() >> name1;
 std::string animal2;
 std::cout << "Input your second animal: ";
-std::cin >> animal2;
+std::cin.getline() >> animal2;
 std::string name2;
 std::cout << "Name your second animal: ";
-std::cin >> name2;
+std::cin.getline() >> name2;
 //misc variables
 std::string food;
 std::cout << "Input a type of food: ";
-std::cin >> food;
+std::cin.getline() >> food;
 std::string item;
 std::cout << "Input a miscellaneous item: ";
-std::cin >> item;
+std::cin.getline() >> item;
 std::string size;
 std::cout << "Input an adjective describing size: ";
-std::cin >> size;
+std::cin.getline() >> size;
 std::string greeting;
 std::cout << "Input an action you do when you meet someone (ending in s: nods, waves, etc.): ";
-std::cin >> greeting;
+std::cin.getline() >> greeting;
 std::string desc;
 std::cout << "Input a description on a person (wrinkly, happy, young, etc): ";
-std::cin >> desc;
+std::cin.getline() >> desc;
 
 //Title
 std::cout << "\nYour adventure starts below.\n";
