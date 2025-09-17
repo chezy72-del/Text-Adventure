@@ -9,40 +9,40 @@ std::cout << "Throughout the story, you will be asked to make choices which will
 //colour
 std::string colour;
 std::cout << "Input a colour: ";
-std::cin.getline() >> colour;
+std::getline(std::cin, colour);
 //weather
 std::string weather;
 std::cout << "Input a description of a day (cold, windy, etc.): ";
-std::cin.getline() >> weather;
+std::getline(std::cin, weather);
 //animals and names
 std::string animal1;
 std::cout << "Input your first animal: ";
-std::cin.getline() >> animal1;
+std::getline(std::cin, animal1);
 std::string name1;
 std::cout << "Name your first animal: ";
-std::cin.getline() >> name1;
+std::getline(std::cin, name1);  
 std::string animal2;
 std::cout << "Input your second animal: ";
-std::cin.getline() >> animal2;
+std::getline(std::cin, animal2);
 std::string name2;
 std::cout << "Name your second animal: ";
-std::cin.getline() >> name2;
+std::getline(std::cin, name2);
 //misc variables
 std::string food;
 std::cout << "Input a type of food: ";
-std::cin.getline() >> food;
+std::getline(std::cin, food);
 std::string item;
 std::cout << "Input a miscellaneous item: ";
-std::cin.getline() >> item;
+std::getline(std::cin, item);
 std::string size;
 std::cout << "Input an adjective describing size: ";
-std::cin.getline() >> size;
+std::getline(std::cin, size);
 std::string greeting;
 std::cout << "Input an action you do when you meet someone (ending in s: nods, waves, etc.): ";
-std::cin.getline() >> greeting;
+std::getline(std::cin, greeting);
 std::string desc;
 std::cout << "Input a description on a person (wrinkly, happy, young, etc): ";
-std::cin.getline() >> desc;
+std::getline(std::cin, desc);
 
 //Title
 std::cout << "\nYour adventure starts below.\n";
